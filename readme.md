@@ -2,10 +2,11 @@
 
 ## Background and Usage
 This script uses the CairoSVG module to show off New Relic Vulnerability Management
-CairoSVG itself is a great utility that converts SVG images to other formats
-CairoSVG versions before 2.7.0 had a critical CVE, which this script uses to demonstrate how New Relic VM detects security issues in your code. 
-Note that the CVE was addressed in versions 2.7.0 and higher
+
+CairoSVG itself is a great utility that converts SVG images to other formats. However, versions before 2.7.0 had a critical CVE, which this script uses to demonstrate how New Relic VM detects security issues in your code. Note that the CVE was addressed in versions 2.7.0 and higher.
+
 Details on the CVE can be found here: [https://github.com/advisories/GHSA-rwmf-w63j-p7gv](https://github.com/advisories/GHSA-rwmf-w63j-p7gv)
+
 Details on CairoSVG can be found [on their home page](https://www.courtbouillon.org/cairosvg).
 
 ## Setup: 
