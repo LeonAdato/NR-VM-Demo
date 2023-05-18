@@ -11,13 +11,13 @@ Details on CairoSVG can be found [on their home page](https://www.courtbouillon.
 ## Setup: 
  - (you need a New Relic account before you start. [Get one here. They're free.](https://newrelic.com/signup) )
  - put NR-VM_Sample.py file in a directory
- - install a virtual environment, container, etc. if desired.
+ - install and enable a virtual environment, container, etc. if desired.
  - install the required modules:
-  - pip install newrelic
-  - pip install cairosvg==2.6.0 (the vulnerable version)
- - Edit newrelic.ini 
-  - add your API key to the line "license_key = "
-  - set your application name in the line "app_name = "
+   - New Relic (`pip install newrelic`)
+   - The vulnerable version of CairoSVG (`pip install cairosvg==2.6.0`)
+ - Edit newrelic.ini
+   - add your API key to the line "license_key = "
+   - set your application name in the line "app_name = "
 
 ## Operation
  - At the command line, run the script (typically `python3 NR-VM_Sample.py`)
